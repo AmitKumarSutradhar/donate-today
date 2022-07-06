@@ -88,6 +88,9 @@ section{
     margin-top: 40px;
     margin-bottom: 80px;
 }
+#donation-plan h3{
+    margin-bottom: 25px;
+}
 .donation-plan-box{
     margin: 50px 5px;
 }
@@ -125,13 +128,16 @@ section{
 .mission_item img {
     width: 45%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 130px;
 }
 .mission_item_1 .mission_content{
     margin-right: 30px;
 }
 .mission_item_2 .mission_content{
     margin-left: 80px;
+}
+.mission_item .mission_content a{
+    margin-top: 15px;
 }
 
 /* Donation Info */
