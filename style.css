@@ -1,19 +1,26 @@
-body{
+*{
     padding: 0;
     margin: 0;
+}
+body{
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 400;
 }
 h2{
+    font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
 }
 p{
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: -5px;
     color: grey;
 }
 img{
@@ -21,9 +28,9 @@ img{
 }
 .button{
     text-decoration: none;
-    padding: 20px;
+    padding: 16px 12px;
     font-size: 20px;
-    background-color: tomato;
+    background-color:#FF5959;;
     color: white;
     border-radius: 5px;
 }
@@ -39,9 +46,74 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 80vh;
-    padding: 60px 10px;
+    height: 90vh;
+    padding-top: 80px;
 }
-#contribute img {
-    width: 80%;
+
+/* Donation Plan */
+#donation-plan{
+    margin-top: 30px;
+}
+#donation-plan img{
+    width: 60px;
+    height: 50px;
+}
+.donation_item{
+    text-align: left;
+    padding: 23px 54px;
+}
+.donation_item h3{
+    color: black;
+}
+.donation_item_food{
+    background-color: #4f9da616;
+    margin-right: 15px;
+}
+.donation_item_shelter{
+    background-color: #ff595931;
+    margin-right: 15px;
+}
+.donation_item_education{
+    background-color: #fff4d64e;
+}
+
+/* Misson */
+.mission-item-content h2,.mission-item-content p,.mission-item-content a{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+mission-item{
+    width: 50%;
+}
+#misson img {
+    width: 50%;
+}
+
+/* Subscription Section */
+.input-form{
+    background-color: #fff4d67a;
+    margin: 5% 15%;
+    padding: 7% 10%;
+}
+input {
+    padding: 12px 20px;
+    background-color: #D9D9D9;
+    border: 0px;
+    border-radius: 3px;
+}
+.input-form a{
+            padding: 10px 35px;
+            font-size: 14px;
+            margin-left: -6px;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer h2{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    padding: 20px;
 }
